@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <title>Web Standards - Senac</title>
+        <style type="text/css">
+            /* body{color:red} */
+            body{font-family:Arial, Helvetica, Sans-serif;}
+            /* h2{font-family:Arial, Helvetica, Sans-serif;}
+            p{font-family:Arial, Helvetica, Sans-serif;}
+            ul{font-family:Arial, Helvetica, Sans-serif;} */
+            h1{font-size: 2.75em;}
+            h2{font-size: 1.5em;}
+            body {border-style: solid;}
+            body {border-color: white;}
+            body {border-width: 2cm;}
+        </style>
+    </head>
+    <body>
+        <h1>Estrutura básica</h1>
+    
+        <p>
+            Existe uma estrutura básica que você SEMPRE deve colocar no seu
+            código HTML. A finalidade é, basicamente, separar o conteúdo que 
+            ficará visível para o usuário daquela informação que será lida 
+            apenas pelos robôs, navegadores e outros softwares.
+        </p>
+        <p>
+            Para ficar mais fácil de explicar, quando vamos escrever uma carta
+            para um cliente, separamos (virtualmente) nosso texto em três 
+            partes: cabeçalho, corpo do texto e rodapé.
+        </p>
+        <ul>
+            <li>No cabeçalho, ficam informações como o logo da empresa.</li>
+            <li>No corpo do texto, fica o texto de interesse do leitor.</li>
+            <li>No rodapé, ficam informações como o endereço da empresa.</li>
+        </ul>
+        <p>
+            <!-- "&lt" and "&gt" to show "<" and ">" respectively (less than and
+            greater than)-->
+            Em HTML, funciona mais ou menos da mesma forma. Temos o cabeçalho 
+            (representado pela tag &lthead&gt...&lt/head&gt) e o corpo do texto 
+            (representado pela tag &ltbody&gt...&lt/body&gt).
+        </p>
+
+        <h2>Doctype (<code>&lt!doctype html&gt</code>)</h2>
+        <p>
+            O Doctype sempre deve ser a primeira linha antes do código HTML
+            (não, não se trata de uma tag). Ele serve para passar uma instrução 
+            para os navegadores e outros dispositivos sobre qual a versão de 
+            marcação em que o código foi escrito.
+        </p>
+        <p>
+            Bem, quando eram usadas as versões anteriores, como o XHTML,
+            era necessário informar o DTD (<i>Document Type Definition</i>) 
+            diretamente no código Doctype. Com o HTML5, essa referência passou a 
+            ficar a cargo do próprio navegador.
+        </p>
+
+        <h2>Elemento HTML (<code>&lthtml lang="pt-br"&gt</code>)</h2>
+        <p>
+            A partir daqui, começa a marcação do código.
+        </p>
+        <p>
+            A primeira tag do código sempre será <code>&lthtml&gt</code>. 
+            Note que temos o atributo lang (abreviação de <i>language</i>) e o 
+            valor pt-br, que indica que o idioma da página é o português do 
+            Brasil. Essa informação é útil principalmente para robôs dos 
+            mecanismos de busca.
+        </p>
+        <p>
+            Uma coisa que é importante você saber é que existem elementos
+            pais e filhos. Os elementos pais sempre ficam acima, e os elementos
+            filhos sempre ficam dentro e abaixo dos elementos pais. Tendo como
+            exemplo a estrutura básica do HTML, o elemento <i>title</i> é filho 
+            do elemento <i>head</i>, e este é filho do elemento HTML.
+        </p>
+        <ul>
+            <li>Elemento <code>head</code></li>
+            <li>Elemento <code>meta</code></li>
+            <li>Elemento <code>title</code></li>
+            <li>Elemento <code>body</code></li>
+        </ul>
+
+        <h2>Links (<code>&lta href="<i>site</i>"&gt</code>)</h2>
+
+        <a href="http://w3.org">Clique aqui</a> nesse trecho para acessar a W3C
+
+        <p>
+            É ele que permite pegar o trecho de um texto, por exemplo, e 
+            vincular a qualquer página da Web, ou outro tipo de arquivo.
+        </p>
+        <p>
+            Quando o arquivo vinculado à uma âncora não pode ser aberto em um 
+            navegador, imediatamente é feito o download dele.
+        </p>
+        <p>
+            O atributo <code>href</code> (<i>hiperlink reference</i>) é o que 
+            vai indicar para onde o navegador deve ir quando o usuário clicar no 
+            link.
+        </p>
+
+        <a href="restaurante.html">Link</a> página do restaurante (exercício
+        proposto).
+
+        <h2>Imagens (<code>&ltimg src="<i>imagem.jpg</i>"&gt</code>)</h2>
+
+        <img src="imagem.png" alt="Imagem não pôde ser carregada!" width="650" height="170">
+    </body>
+</html>
