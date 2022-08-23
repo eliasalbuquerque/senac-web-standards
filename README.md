@@ -1,2 +1,3 @@
-# Web Standards - SENAC
+# senac-web-standards
 
+Web Standards - SENAC
