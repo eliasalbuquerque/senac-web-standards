@@ -3,18 +3,7 @@
     <head>
         <meta charset="utf-8">
         <title>Web Standards - Senac</title>
-        <style type="text/css">
-            /* body{color:red} */
-            body{font-family:Arial, Helvetica, Sans-serif;}
-            /* h2{font-family:Arial, Helvetica, Sans-serif;}
-            p{font-family:Arial, Helvetica, Sans-serif;}
-            ul{font-family:Arial, Helvetica, Sans-serif;} */
-            h1{font-size: 2.75em;}
-            h2{font-size: 1.5em;}
-            body {border-style: solid;}
-            body {border-color: white;}
-            body {border-width: 2cm;}
-        </style>
+        <link rel="stylesheet" href="estilo.css">
     </head>
     <body>
         <h1>Estrutura básica</h1>
@@ -105,6 +94,34 @@
 
         <h2>Imagens (<code>&ltimg src="<i>imagem.jpg</i>"&gt</code>)</h2>
 
-        <img src="imagem.png" alt="Imagem não pôde ser carregada!" width="650" height="170">
+        <img src="https://raw.githubusercontent.com/eliasalbuquerque/senac-web-standards/master/imagem.png" 
+        alt="Imagem não pôde ser carregada!" 
+        width="604" height="143">
     </body>
+    <table>
+        <thead> <!-- Table Head  -->
+            <tr> <!-- Table Row (Linhas) -->
+                <th>software</th> <!-- Colunas do cabeçalho  -->
+                <th>Departamento</th>
+                <th>Qtd Máquinas</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Microsoft Excel</td> <!-- Table Distinct (Células)  -->
+                <td>Financeiro e Marketing</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>Adobe Photoshop</td>
+                <td>Marketing</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>Microsoft Word</td>
+                <td>Todos departamentos</td>
+                <td>25</td>
+            </tr>           
+        </tbody>
+    </table>
 </html>

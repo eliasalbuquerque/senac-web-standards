@@ -1,0 +1,35 @@
+/* <!-- CSS para tratar texto (<style ... /style>) --> */
+
+    
+/*  
+ * Estilos de títulos
+ */
+h1 {font-size: 2.75em;} /* 44px */
+h2 {font-size: 1.5em;} /* 24px */
+/* h2 {font-family:Arial, Helvetica, Sans-serif;}
+
+
+/* 
+ * Estilos de corpo do texto
+ */
+ body {font-family:Arial, Helvetica, Sans-serif;}
+ body {background-color:white;}
+ body {border-style: solid;}
+ body {border-color: white;}
+/* body {color:red} */
+/* body {border-width: 2cm;} */
+/* body {border-width:3cm 2cm 2cm 3cm;} */
+
+
+/* 
+* Estilos de parágrafos
+*/
+p {text-align: justify;}
+/* p {font-family:Arial, Helvetica, Sans-serif;} */
+
+
+/* 
+* Tabela
+*/
+th {font: bold;}
+

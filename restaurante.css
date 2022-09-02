@@ -1,0 +1,64 @@
+/* 
+ * Estilos do Projeto Restaurante
+ */
+
+
+body {background-color:ghostwhite;}
+
+h1 {font-family: Cambria, 'Times New Roman', Times, serif;
+    font-size: 72px;
+    text-align: center;
+    height: 400px;
+    background-color: #777777;
+    color: #ffffff;
+}
+
+h2 {font-size: 14px;
+    color: #777777;
+    line-height: 55px;
+    height: 55px;
+    background-color: black;
+}
+
+h3 {font-size: 16px;
+    color: #777777;
+    display: none;
+}
+
+h4 {font-family: Cambria, 'Times New Roman', Times, serif; 
+    font-size: 24px;
+    color: darkcyan;
+    margin: 24px;
+    clear: both;
+}
+
+p  {font-family: Arial, Helvetica, sans-serif; 
+    color: #777777;
+    width: 250px;
+    margin: 24px;
+}
+
+li {border: solid 1px #cccccc;
+    color: #ffffff;
+    background-color: darkcyan;
+    width: 150px;
+    margin: 12px;
+    padding: 8px;
+    float: left;
+}
+/* li {color: #ffffff;
+    background-color: darkcyan;
+    border-style: solid;
+    border-color: #cccccc;
+    border-width: 1px;
+} */
+
+.preco {
+    color: royalblue;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    font-size: 18px;
+}
+
+a  {color: #ffffff;
+    text-decoration: none;
+}
