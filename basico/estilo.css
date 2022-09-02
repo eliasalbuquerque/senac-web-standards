@@ -31,5 +31,15 @@ p {text-align: justify;}
 /* 
 * Tabela
 */
-th {font: bold;}
+/* */
+table {
+    background: rgb(190, 190, 190);    
+    text-align: center;
+}
+
+tr {
+    font: bold;
+    border-color: white;
+    border-style: solid;
+}
 
