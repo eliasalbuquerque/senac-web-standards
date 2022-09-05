@@ -53,6 +53,7 @@ footer {
     display:block;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 4%;
 }
 
 h1 {
@@ -74,7 +75,6 @@ h1 {
     text-align: right;
     padding: 5%;
     font-family: Arial, Helvetica, sans-serif;
-
     font-size: clamp(60%, 20% + 1.3vw, 140%);
     width: auto;
     max-width: 9cm;
