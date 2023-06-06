@@ -7,7 +7,6 @@
 /* Elementos do texto */
 
 .container {
-    /* background-color: beige; */
     color: rgb(63, 63, 63);
     width: 90%;
     max-width: 35cm;
@@ -17,12 +16,10 @@
 }
 
 .bodypos {
-    /* background-color: aquamarine; */
     background-image: linear-gradient(to right, white, beige, beige, white);
 }
 
 header, footer {
-    /* background-color: blue;  */
     padding: 10%;
     clear: both; /* coloca o elemento isoladamente */
     text-transform: uppercase;
@@ -40,7 +37,6 @@ footer {
 /* Configuracoes menu lateral */
 
 #menu_lateral {
-    /* background-color: green;  */
     padding: 1%;
     width: 30%;
     float: left;
@@ -57,7 +53,6 @@ footer {
 }
 
 h1 {
-    /* background-color: red;  */
     text-transform: uppercase;
     padding: 5%;
     text-align: center;
@@ -71,7 +66,6 @@ h1 {
 }
 
 .config_informacoes {
-    /* background-color: pink; */
     text-align: right;
     padding: 5%;
     font-family: Arial, Helvetica, sans-serif;
@@ -102,7 +96,6 @@ ul {
 /* Configuracoes do bloco principal */
 
 main {
-    /* background-color: yellow;  */
     padding: 1%;
     padding-right: 3%;
     width: 64%;
